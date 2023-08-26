@@ -64,7 +64,7 @@ align-items: center;
 }
 .content .list-menu li a:hover{
     background-color: #3333;
-    border-bottom: 4px solid #ffc506;
+    border-bottom: 4px solid #3f2f7b;
     
 
 
@@ -72,6 +72,11 @@ align-items: center;
 
 .first-section{
     height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)),  url(./img/fundo\ pizza.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -81,5 +86,53 @@ align-items: center;
 
 
 
+.first-section .conteudo-principal{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.first-section h1{
+    color: #9f9470;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.first-section h2{
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 3rem;
+}
 
 
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:#ffc506;
+    border-radius: 10px;
+    color: black;
+    font: weight 700;
+    margin-top: 5rem;
+
+
+}
+
+.btn button:hover {
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+
+.btn{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
